@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Classes'
 
-  # s.dependency 'JSONKit', '~> 1.4'
+  s.dependency 'AFNetworking/NSURLConnection', '~> 2.0'
 end
