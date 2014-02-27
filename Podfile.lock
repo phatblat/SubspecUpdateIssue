@@ -1,7 +1,7 @@
 PODS:
   - AFNetworkActivityLogger (2.0.1):
     - AFNetworking (~> 2.0)
-  - AFNetworking (2.1.0):
+  - AFNetworking (2.2.0):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
     - AFNetworking/Reachability
@@ -12,15 +12,16 @@ PODS:
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.1.0):
+  - AFNetworking/NSURLSession (2.2.0):
     - AFNetworking/NSURLConnection
   - AFNetworking/Reachability (2.2.0)
   - AFNetworking/Security (2.2.0)
   - AFNetworking/Serialization (2.2.0)
-  - AFNetworking/UIKit (2.1.0):
+  - AFNetworking/UIKit (2.2.0):
     - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
   - ZPodUsingAFN (0.1.0):
-    - AFNetworking/NSURLConnection (~> 2.0)
+    - AFNetworking (~> 2.0)
 
 DEPENDENCIES:
   - AFNetworkActivityLogger (~> 2.0)
@@ -33,7 +34,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworkActivityLogger: c2e99aec5d965a3ee33f0954a20c5ddab18934fe
-  AFNetworking: c7d7901a83f631414c7eda1737261f696101a5cd
-  ZPodUsingAFN: 2cd6fe283e8a3b9192d1d6dc3de19efcd363f948
+  AFNetworking: e8cfd8f3fe3bfe19124a0cc63f4d45752d892a56
+  ZPodUsingAFN: 67443b1969ffa8e7e5ba20f99ecc0d0f5652d691
 
 COCOAPODS: 0.29.0
