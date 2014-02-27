@@ -15,22 +15,7 @@
 		EBACCAA718BEEB950002E051 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBACCAA618BEEB950002E051 /* main.m */; };
 		EBACCAAB18BEEB950002E051 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBACCAAA18BEEB950002E051 /* AppDelegate.m */; };
 		EBACCAAD18BEEB950002E051 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBACCAAC18BEEB950002E051 /* Images.xcassets */; };
-		EBACCAB418BEEB950002E051 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBACCAB318BEEB950002E051 /* XCTest.framework */; };
-		EBACCAB518BEEB950002E051 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBACCA9A18BEEB950002E051 /* Foundation.framework */; };
-		EBACCAB618BEEB950002E051 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBACCA9E18BEEB950002E051 /* UIKit.framework */; };
-		EBACCABE18BEEB950002E051 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBACCABC18BEEB950002E051 /* InfoPlist.strings */; };
-		EBACCAC018BEEB950002E051 /* SubspecUpdateIssueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBACCABF18BEEB950002E051 /* SubspecUpdateIssueTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		EBACCAB718BEEB950002E051 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EBACCA8F18BEEB950002E051 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EBACCA9618BEEB950002E051;
-			remoteInfo = SubspecUpdateIssue;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0D6C4E0CE64941E8B286932C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,11 +31,7 @@
 		EBACCAA918BEEB950002E051 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EBACCAAA18BEEB950002E051 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EBACCAAC18BEEB950002E051 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		EBACCAB218BEEB950002E051 /* SubspecUpdateIssueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubspecUpdateIssueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBACCAB318BEEB950002E051 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		EBACCABB18BEEB950002E051 /* SubspecUpdateIssueTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SubspecUpdateIssueTests-Info.plist"; sourceTree = "<group>"; };
-		EBACCABD18BEEB950002E051 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EBACCABF18BEEB950002E051 /* SubspecUpdateIssueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubspecUpdateIssueTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,16 +46,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBACCAAF18BEEB950002E051 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EBACCAB418BEEB950002E051 /* XCTest.framework in Frameworks */,
-				EBACCAB618BEEB950002E051 /* UIKit.framework in Frameworks */,
-				EBACCAB518BEEB950002E051 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				EBACCAA018BEEB950002E051 /* SubspecUpdateIssue */,
-				EBACCAB918BEEB950002E051 /* SubspecUpdateIssueTests */,
 				EBACCA9918BEEB950002E051 /* Frameworks */,
 				EBACCA9818BEEB950002E051 /* Products */,
 				C30C47E3EC664C61A5FAD4FD /* Pods.xcconfig */,
@@ -93,7 +63,6 @@
 			isa = PBXGroup;
 			children = (
 				EBACCA9718BEEB950002E051 /* SubspecUpdateIssue.app */,
-				EBACCAB218BEEB950002E051 /* SubspecUpdateIssueTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,24 +101,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EBACCAB918BEEB950002E051 /* SubspecUpdateIssueTests */ = {
-			isa = PBXGroup;
-			children = (
-				EBACCABF18BEEB950002E051 /* SubspecUpdateIssueTests.m */,
-				EBACCABA18BEEB950002E051 /* Supporting Files */,
-			);
-			path = SubspecUpdateIssueTests;
-			sourceTree = "<group>";
-		};
-		EBACCABA18BEEB950002E051 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				EBACCABB18BEEB950002E051 /* SubspecUpdateIssueTests-Info.plist */,
-				EBACCABC18BEEB950002E051 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -172,24 +123,6 @@
 			productReference = EBACCA9718BEEB950002E051 /* SubspecUpdateIssue.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EBACCAB118BEEB950002E051 /* SubspecUpdateIssueTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EBACCAC618BEEB950002E051 /* Build configuration list for PBXNativeTarget "SubspecUpdateIssueTests" */;
-			buildPhases = (
-				EBACCAAE18BEEB950002E051 /* Sources */,
-				EBACCAAF18BEEB950002E051 /* Frameworks */,
-				EBACCAB018BEEB950002E051 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EBACCAB818BEEB950002E051 /* PBXTargetDependency */,
-			);
-			name = SubspecUpdateIssueTests;
-			productName = SubspecUpdateIssueTests;
-			productReference = EBACCAB218BEEB950002E051 /* SubspecUpdateIssueTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,11 +131,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "@phatblat";
-				TargetAttributes = {
-					EBACCAB118BEEB950002E051 = {
-						TestTargetID = EBACCA9618BEEB950002E051;
-					};
-				};
 			};
 			buildConfigurationList = EBACCA9218BEEB950002E051 /* Build configuration list for PBXProject "SubspecUpdateIssue" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -217,7 +145,6 @@
 			projectRoot = "";
 			targets = (
 				EBACCA9618BEEB950002E051 /* SubspecUpdateIssue */,
-				EBACCAB118BEEB950002E051 /* SubspecUpdateIssueTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,14 +156,6 @@
 			files = (
 				EBACCAA518BEEB950002E051 /* InfoPlist.strings in Resources */,
 				EBACCAAD18BEEB950002E051 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EBACCAB018BEEB950002E051 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EBACCABE18BEEB950002E051 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,37 +204,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBACCAAE18BEEB950002E051 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EBACCAC018BEEB950002E051 /* SubspecUpdateIssueTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		EBACCAB818BEEB950002E051 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EBACCA9618BEEB950002E051 /* SubspecUpdateIssue */;
-			targetProxy = EBACCAB718BEEB950002E051 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EBACCAA318BEEB950002E051 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				EBACCAA418BEEB950002E051 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		EBACCABC18BEEB950002E051 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EBACCABD18BEEB950002E051 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -421,46 +316,6 @@
 			};
 			name = Release;
 		};
-		EBACCAC718BEEB950002E051 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SubspecUpdateIssue.app/SubspecUpdateIssue";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SubspecUpdateIssue/SubspecUpdateIssue-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "SubspecUpdateIssueTests/SubspecUpdateIssueTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		EBACCAC818BEEB950002E051 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SubspecUpdateIssue.app/SubspecUpdateIssue";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SubspecUpdateIssue/SubspecUpdateIssue-Prefix.pch";
-				INFOPLIST_FILE = "SubspecUpdateIssueTests/SubspecUpdateIssueTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -478,15 +333,6 @@
 			buildConfigurations = (
 				EBACCAC418BEEB950002E051 /* Debug */,
 				EBACCAC518BEEB950002E051 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EBACCAC618BEEB950002E051 /* Build configuration list for PBXNativeTarget "SubspecUpdateIssueTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EBACCAC718BEEB950002E051 /* Debug */,
-				EBACCAC818BEEB950002E051 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
