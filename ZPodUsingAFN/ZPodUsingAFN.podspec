@@ -19,10 +19,10 @@ Pod::Spec.new do |s|
   #
   # This loose top-level spec dependency causes only the latest (2.2.0) AFNetworking version to be installed, despite any version pinning in the Podfile.
   #
-  s.dependency 'AFNetworking', '~> 2.0'
+  # s.dependency 'AFNetworking', '~> 2.0'
 
   #
   # This loose subspec dependency causes both AFNetworking versions 2.2.0 and 2.1.0 to be installed.
   #
-  # s.dependency 'AFNetworking/NSURLConnection', '~> 2.0'
+  s.dependency 'AFNetworking/NSURLConnection', '~> 2.0'
 end
