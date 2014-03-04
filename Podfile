@@ -4,6 +4,10 @@ xcodeproj "SubspecUpdateIssue"
 
 #
 # Declaring the pod dependency before AFNetworking is when issues arise.
+# - pod which depends on shared dependency must appear before it in Podfile
+# - pod which depends on shared dependency must be string sorted after it (install progress shows in this order)
+# - if pod depends on a subspec of shared dependency, both the pinned version and the latest version of shared dependency will be installed
+# - if pod depends on top-level spec of shared dependency, only the latest version of shared dependency will be installed
 #
 pod "ZPodUsingAFN", :path  => "ZPodUsingAFN"
 
