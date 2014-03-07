@@ -1,6 +1,6 @@
 # Purpose
 
-This repo serves to provide an example of where CocoaPods version 0.29.0 can misbehave in very specific scenarios. See CocoaPods Core issue (#64)[https://github.com/CocoaPods/Core/issues/64] for more details.
+This repo serves to provide an example of where CocoaPods version 0.29.0 can misbehave in very specific scenarios. See CocoaPods Core issue [#64](https://github.com/CocoaPods/Core/issues/64) for more details.
 
 # Issue Case #1
 
